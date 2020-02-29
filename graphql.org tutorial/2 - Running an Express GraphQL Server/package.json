@@ -1,0 +1,18 @@
+{
+  "name": "run-express-graphql",
+  "version": "1.0.0",
+  "description": "The simplest way to run a GraphQL API server is to use Express, a popular web application framework for Node.js. You will need to install two additional dependencies:",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.1"
+  }
+}

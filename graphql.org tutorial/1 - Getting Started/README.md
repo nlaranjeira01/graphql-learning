@@ -30,10 +30,12 @@ To handle GraphQL queries, we need a schema that defines the Query type, and we 
     graphql(schema, '{ hello }', root).then((response) => {
     console.log(response);
     });
-    If you run this with:
+
+If you run this with:
 
     node server.js
-    You should see the GraphQL response printed out:
+
+You should see the GraphQL response printed out:
 
     { data: { hello: 'Hello world!' } }
 
